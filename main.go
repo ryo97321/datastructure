@@ -6,7 +6,7 @@ func Enqueue(queue []int, number int) []int {
 	return queue
 }
 
-// Dequeue 最後に追加されたデータを取り出す
+// Dequeue 先頭にあるデータを取り出す
 func Dequeue(queue []int) ([]int, int) {
 	n := queue[0]
 	queue = queue[1:]
